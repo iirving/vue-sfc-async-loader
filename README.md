@@ -1,6 +1,10 @@
 # vue-sfc-async-loader
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3 in Vite.
+
+## Asynchronously Loaded Component
+
+The defineAsyncComponent function is used to import the BigYellowUserName component asynchronously, in other words not synchronously with the other ellemnts on the page. The loading state is controled by the showUserName value and the toogle button.
 
 ## Recommended IDE Setup
 
